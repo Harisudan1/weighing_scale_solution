@@ -1,0 +1,79 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f7f7;
+}
+
+/* Product details styles */
+.product-details {
+  margin-top: 50px !important;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+}
+
+/* Similar products styles */
+.similar-products .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 200px; /* Adjust the width as needed */
+  margin: 10px; /* Add margin for better spacing */
+}
+
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.similar-products .card-price {
+  color: green;
+  font-weight: bold;
+}
+
+/* Button styling */
+.similar-products button {
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.similar-products button:hover {
+  background-color: #2980b9;
+}
+
+.similar-products .card-text {
+  color: rgb(90, 89, 89);
+}
+
+/* Image hover effect */
+.similar-products .card img:hover {
+  transform: scale(0.9);
+}
+
+/* Adjust image height */
+.similar-products .card-img-top {
+  height: 200px !important; /* Adjust the height as needed */
+}
+
+/* Add more specific styles as needed */
